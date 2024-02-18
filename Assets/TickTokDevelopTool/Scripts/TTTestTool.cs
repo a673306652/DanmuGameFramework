@@ -63,7 +63,7 @@ public class TTTestTool : HisaoMono
                 data.faceUrl = fakeData.faceUrl;
                 FakeUserManager.Instance.existFakeUserDict.Add(uid, data);
             }
-            Exec(() =>
+            Exec((a) =>
             {
                 this.Clinet.DanmuMessageHandlerAsync(uid, data.nickname, content, data.faceUrl);
             }, delayTime);
@@ -85,6 +85,7 @@ public class TTTestTool : HisaoMono
     }
     public void FakeTalk(string uid,string content)
     {
+  
         var a = Instantiate(TalkTemplate, contentAnchor);
         a.Init(uid, content);
         a.GetComponent<ContentSizeFitter>().enabled = false;
@@ -114,7 +115,7 @@ public class TTTestTool : HisaoMono
                 FakeUserManager.Instance.existFakeUserDict.Add(uid, data);
             }
 
-            Exec(() =>
+            Exec((a) =>
             {
                 this.Clinet.LikeMessageHandlerAsync(uid, data.nickname, data.faceUrl,1);
             }, delayTime);
@@ -147,7 +148,7 @@ public class TTTestTool : HisaoMono
                 FakeUserManager.Instance.existFakeUserDict.Add(uid, data);
             }
 
-            Exec(() =>
+            Exec((a) =>
             {
                 this.Clinet.GiftMessageHandlerAsync(uid, data.nickname, data.faceUrl, giftName, giftID, 1, 1);
             }, delayTime);

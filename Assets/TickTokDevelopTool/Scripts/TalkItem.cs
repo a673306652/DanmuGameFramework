@@ -38,7 +38,7 @@ public class TalkItem : MonoBehaviour
     {
         if (!this.load)
         {
-            
+           
             var user = FakeUserManager.Instance.existFakeUserDict.TryGet(this.id);
          
                

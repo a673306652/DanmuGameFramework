@@ -98,7 +98,7 @@ public class PlayerControll3D : HisaoMono
             jumpTask.Stop();
             jumpTask = null;
         }
-        jumpTask = this.Exec(() =>
+        jumpTask = this.Exec((a) =>
         {
             onGround = true;
             jumpTask = null;
