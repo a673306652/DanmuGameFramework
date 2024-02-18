@@ -1,0 +1,10 @@
+If you want to use the SaveSytem, don't forget the "using SaveSystem;" statement.
+
+If you have problems saving an object, these are the most common mistakes:
+
+-) Your class must be public.
+-) Your class must have a constuctor with no parameters.
+-) Your class must have the [System.Serializable] attribute.
+-) Your class must not derive from any other class.
+
+For further questions, feel free to contact me here: hendrik.haidenthaler@gmail.com
