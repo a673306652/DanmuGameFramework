@@ -1,0 +1,40 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.UI;
+using System;
+using System.Reflection;
+using DanMuGame;
+[RequireComponent(typeof(Text))]
+
+public class GetMethodStringToText : MonoBehaviour
+{
+    public UnityEngine.Object target;
+    private Text text;
+    private void Awake()
+    {
+        this.text = this.GetComponentInChildren<Text>();
+
+    }
+    private void Update()
+    {
+        try
+        {
+            var type = this.target.GetType();
+            foreach (var item in type.GetMethods())
+            {
+                if (item.Name == this.name)
+                {
+                    var result = item.Invoke(this.target, null);
+                    this.text.text = result.ToString();
+                    break;
+                }
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogError(e.Message + this.name);
+        }
+    }
+
+}

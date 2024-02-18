@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: GG_Main
+  m_Shader: {fileID: 4800000, guid: 22c8483a0088cff4ea29f92544b8304b, type: 3}
+  m_ShaderKeywords: USE_SHADOW _True
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2000
+  stringTagMap:
+    IGNOREPROJECTOR: False
+    RenderType: Opaque
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Texture2D_65ff2e43bacb4a05b7fe3712ef4ecf96:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _AlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BaseMap:
+        m_Texture: {fileID: 10305, guid: 0000000000000000f000000000000000, type: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveBorderRamp:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecularTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _VertexAnimationMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Boolean_21dd38a7d2de4f81a97df294c52f94fe: 0
+    - Vector1_0aab7d376c89415da05597d258f768f3: 1
+    - Vector1_1: 0
+    - Vector1_100c0601003147bc9791a69c384f0838: 0
+    - _AdvancedTab: 0
+    - _AlphaClipping: 0
+    - _AlphaCutoff: 0
+    - _Blend: 0
+    - _BlendDst: 0
+    - _BlendSrc: 1
+    - _Brightness: 1
+    - _ColorGrading: 0
+    - _Contrast: 1
+    - _Cutoff: 0
+    - _Dissolve: 0
+    - _DissolveAmount: 0.5
+    - _DissolveBorderSize: 0.25
+    - _DissolveMapScale: 1
+    - _GlobalBlend: 1
+    - _HalfLambert: 0
+    - _HardShadow: 0
+    - _HardShadowStepEdge: 0.45
+    - _Initialized: 1
+    - _InputTab: 1
+    - _LightBlend: 1
+    - _LightMaxClamp: 20
+    - _LightMinClamp: 0
+    - _LightThreshold: 0
+    - _OptionsTab: 1
+    - _RenderFace: 2
+    - _RenderPriority: 0
+    - _Saturation: 1
+    - _ShadowIntensity: 1
+    - _Shining: 0
+    - _SkyColor: 1
+    - _SkyColorIntensity: 0
+    - _SmoothLight: 1
+    - _Smoothness: 50
+    - _SpecularIntensity: 0
+    - _SpecularPower: 0
+    - _SpecularRange: 1
+    - _Stencil: 1
+    - _StencilComp: 8
+    - _StencilFail: 0
+    - _StencilPass: 0
+    - _StencilReadMask: 255
+    - _StencilRef: 0
+    - _StencilWriteMask: 255
+    - _StencilZFail: 0
+    - _StylizeTab: 0
+    - _Surface: 0
+    - _ToonSpecular: 0
+    - _UseShadow: 1
+    - _VertexAnimation: 0
+    - _VertexAnimationIntensity: 0.05
+    - _VertexAnimationStutter: 0
+    - _ZTest: 4
+    - _ZWrite: 1
+    m_Colors:
+    - Color_6f007dd8516a40f59c31d25032aedb7f: {r: 0, g: 0, b: 0, a: 0}
+    - _Albedo: {r: 1, g: 1, b: 1, a: 0}
+    - _AlbedoColor: {r: 1, g: 1, b: 1, a: 1}
+    - _BaseColor: {r: 0.4811321, g: 0.4811321, b: 0.4811321, a: 1}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
+    - _DarkColor: {r: 0, g: 0, b: 0, a: 0}
+    - _DissolveBorderColor: {r: 1, g: 1, b: 1, a: 1}
+    - _DrakColor: {r: 0.6698113, g: 0.6698113, b: 0.6698113, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _LightColor: {r: 1, g: 1, b: 1, a: 0}
+    - _ShadowColor: {r: 0.6037736, g: 0.6037736, b: 0.6037736, a: 0}
+    - _ShadowIntensity: {r: 0, g: 0, b: 0, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 0}
+    - _VertexAnimationFrequency: {r: 2.5, g: 2.5, b: 2.5, a: 1}
+  m_BuildTextureStacks: []
