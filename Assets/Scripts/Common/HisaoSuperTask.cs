@@ -74,14 +74,9 @@ public class HisaoSuperTask : SingletonForHisaoMono<HisaoSuperTask>
             tasks[i].tick += delta;
             if (tasks[i].tick >= tasks[i].targetTime)
             {
-                try
-                {
+              
                     tasks[i].action.Invoke(tasks[i]);
-                }
-                catch (Exception e)
-                {
-                    Debug.LogError(e.ToString());
-                }
+           
 
                 if (tasks[i].loopCount == -1)
                 {

@@ -127,6 +127,12 @@ public class UnitAI : HisaoMono
 
     //理论上的怪物加载应该基于表进行来的
     //我去把表结构也做了?算了直接写死吧先
+
+    private void OnApplicationQuit()
+    {
+        
+    }
+
     public void Init(Bloc myBloc, string id, BaseAttackState attackState, int skinID, double baseATK, double baseDef,
         double baseHp,
         float baseMoveSpeed, float baseAttackRange, float BaseAttackSpeed, float price)
