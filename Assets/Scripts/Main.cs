@@ -24,7 +24,6 @@ public class Main : HisaoMono
 
     private void Start()
     {
-  
         TTTestTool.Instance.FakeTalk(FakeUserManager.Instance.GetFakeUser().uid, "开始无限循环的定时协程，在10秒后结束");
         var x = HisaoSuperTask.Instance.EnqueueTask(
             (a) => { TTTestTool.Instance.FakeTalk(FakeUserManager.Instance.GetFakeUser().uid, "一条来自协程的消息"); }, 1f, -1);
